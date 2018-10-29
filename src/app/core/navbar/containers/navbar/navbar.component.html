@@ -1,0 +1,41 @@
+<!-- Begin Header -->
+<header>
+
+  <a routerLink="/" class="logo-container">
+    <p>MARGAUX FOUQUET</p>
+  </a>
+
+  <nav #navbar>
+    <ul>
+      <li>
+        <a routerLink="/" (click)="closeMenu($event)" routerLinkActive="active">ACCUEIL</a>
+      </li>
+      <li>
+        <a routerLink="/about" (click)="closeMenu($event)" routerLinkActive="active">A PROPOS</a>
+      </li>
+      <li>
+        <a routerLink="/benefits/particular" routerLinkActive="active">PRESTATIONS</a>
+        <ul>
+          <li><a routerLink="/benefits/particular" (click)="closeMenu($event)">PARTICULIERS</a></li>
+          <li><a routerLink="/benefits/professional" (click)="closeMenu($event)">PROFESSIONNELS</a></li>
+        </ul>
+      </li>
+      <li>
+        <a routerLink="/gallery" (click)="closeMenu($event)" routerLinkActive="active">PHOTOS</a>
+      </li>
+      <!--<li>
+        <a routerLink="/home/contact" routerLinkActive="active">PARTENAIRES</a>
+      </li>
+       <li>
+        <a routerLink="/home/contact" routerLinkActive="active">REFERENCES</a>
+      </li> -->
+      <li>
+        <a routerLink="/contact" (click)="closeMenu($event)" routerLinkActive="active">CONTACT</a>
+      </li>
+    </ul>
+  </nav>
+
+  <a href="#" class="mobile-navigation icon3-list2"></a>
+
+</header>
+<!-- End Header -->

@@ -1,0 +1,31 @@
+@media only screen and (max-width: 480px){
+    .social-icons {
+        display: inline;
+    }
+}
+
+.pink{
+    color: #F8BBD0 !important;
+}
+
+.pink-border{
+    border-color: #F8BBD0 !important;
+    border: 3px solid #F8BBD0;
+}
+
+.phone{
+    font-size: 18px !important;
+    color: #F8BBD0 !important;
+}
+
+.logo{
+    width:17em;
+}
+
+.icons{
+    font-size: 18px !important;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}

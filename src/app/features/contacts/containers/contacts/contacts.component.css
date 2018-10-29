@@ -1,0 +1,56 @@
+.disabled{
+    border: 1px solid #999999 !important;
+    background-color: #cccccc !important;
+    color: #666666 !important;
+  }
+.disabled:hover{
+    border: 1px solid #999999 !important;
+    background-color: #cccccc !important;
+    color: #666666 !important;
+    cursor: unset !important;
+}
+.errors{
+    margin-bottom: 20px;
+    margin-top: -15px;
+    color: #D33434;
+}
+.btn{
+    font-size: 11px;
+    display: inline-block;
+    text-align: center;
+    padding: 13px 15px;
+    letter-spacing: 3px;
+    margin: 0px 10px 10px 0px;
+    border: 1px solid #F8BBD0;
+    background-color: #F8BBD0;
+    cursor: pointer;
+    font-family: effra, arial;
+    color: black;
+}
+
+.disabled{
+    border: 1px solid #FCE4EC !important;
+    background-color: #FCE4EC !important;
+    
+}
+
+.disabled:hover{
+    border: 1px solid #FCE4EC !important;
+    background-color: #FCE4EC !important;
+}
+
+.pink{
+    color: #F8BBD0 !important;
+}
+
+.logo-pink{
+    width: 10em;
+}
+
+.info{
+    font-size: 16px !important;
+}
+
+.contact-2 form input[type=text], .contact-2 form input[type=email], .contact-2 form textarea {
+    font-size: 17px;
+}

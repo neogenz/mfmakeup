@@ -1,0 +1,220 @@
+.flex{
+    display: flex;
+}
+
+.focus{
+    color: white;
+    border: 3px solid #F8BBD0;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    width: fit-content;
+    font-weight: bold;
+}
+
+h4 {
+    margin: 0;
+}
+
+.title > .light{
+    font-weight: normal;
+    font-style: italic;
+}
+
+.pointille {
+    border:none;
+    background:none;
+    border-bottom:1px dashed #888; 
+    width: 100%;
+    height: 3.7em;
+    margin: 0 .4em;
+}
+
+.pointille.two-lines{
+    height: 5.7em;
+}
+
+.one-line{
+    height: 1.6em;
+}
+
+.price.text{
+    white-space: nowrap;
+}
+
+.name {
+    flex-shrink: 0;
+    font-style: italic;
+    color: gray;
+}
+
+.price {
+    display: flex;
+    align-items: flex-end;
+    color: #F8BBD0;
+    font-weight: bold;
+}
+
+.space{
+    height: 5em;
+}
+
+.description{
+    font-style: italic;
+    margin-bottom: 2em;
+}
+
+.mt-5{
+    margin-top: 2.5em;
+}
+
+.separator-container{
+    display: flex;
+    justify-content: left;
+}
+
+.special-prestation{
+    display: flex;
+    justify-content: center;
+}
+
+.puce-white {
+    color: #F8BBD0;
+}
+
+.no-focus{
+    color: #888;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.no-border{
+    border: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.dot{
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-right: 0.7em;
+}
+
+.vertical-align{
+    align-items: center;
+}
+
+.full-width-mobile{
+    width: 100% !important;
+}
+
+.mt-4{
+    margin-top: 2em;
+}
+
+.pink{
+    color: #F8BBD0 !important;
+}
+
+.pink > h4{
+    color: #F8BBD0 !important;   
+}
+
+.style-normal {
+    font-style: normal !important;
+}
+
+.inline{
+    display: inline;
+}
+
+.ml-2{
+    margin-left: .5em;
+}
+
+.separator{
+    border: none;
+    height: 1px;
+    color: #fff;
+    background-color: #6e6e6e;
+    width: 20%;
+    margin: 2em 0;
+}
+
+.dot-pink{
+    background-color: #F8BBD0 !important;
+}
+
+@media only screen and (max-width: 890px) {
+    .mt-4-mobile{
+        margin-top: 2em;
+    }
+
+    .display-itinial-mobile{
+        display: initial !important;
+    }
+
+    .pointille{
+        display: none !important;
+    }
+
+    .price {
+        display: initial !important;
+        align-items: unset !important;
+    }
+
+    .name {
+        flex-shrink: unset;
+        width: 80%;
+    }    
+
+    .hide-mobile{
+        display: none;
+    }
+
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .focus{
+        width: 100%;
+        text-align: center
+    }
+
+    .price.text{
+        width: unset;
+        white-space: nowrap;
+    }
+
+    .without-description{
+        margin-top: 3em;
+    }
+
+    .end{
+        text-align: justify;
+    }
+
+    .description{
+        text-align: justify;
+    }
+
+    .center-mobile{
+        justify-content: center;
+    }
+}
+
+.title{
+    color: white !important;
+    font-weight: bold;
+    font-style: normal !important;
+}
+
+.mt-2{
+    margin-top: 1em;
+}

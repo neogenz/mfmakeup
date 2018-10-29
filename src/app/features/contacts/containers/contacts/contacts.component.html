@@ -1,0 +1,113 @@
+<!-- Begin Content -->
+<div class="main-container with-padding">
+
+  <div class="wrapper">
+
+    <div class="inner-wrapper">
+
+      <div class="contact-2">
+
+        <div class="content-inner clearfix">
+
+          <div class="row">
+              <div class="col full text-center">
+                  <img src="assets/images/mf-logo-pink.png" alt="" class="logo-pink">
+                </div>
+                </div>
+
+          <div class="divider clear" style="height:10px;"></div>
+
+          <div class="row">
+
+            <div class="info-box col one-third">
+              <p class="desc">TELEPHONE</p>
+              <p class="info pink">07 66 82 42 20</p>
+            </div>
+            <div class="info-box col one-third">
+              <p class="desc">SECTEUR DE DEPLACEMENT</p>
+              <p class="info pink">Région PACA</p>
+            </div>
+
+          </div>
+
+          <div class="divider clear" style="height:20px;"></div>
+
+          <div class="row">
+
+            <div class="col">
+
+              <form method="post" [formGroup]="contactForm" (ngSubmit)="sendEmail()">
+                <input type="text" placeholder="NOM" formControlName="lastname" [class.error]="lastnameErrors.hasError('*', ['dirty', 'touched'])">
+                <div ngxErrors="lastname" #lastnameErrors="ngxErrors" class="errors">
+                  <div ngxError="minlength" when="dirty">
+                    Minimum 2 caractères
+                  </div>
+                </div>
+                <input type="text" placeholder="PRENOM" formControlName="firstname" [class.error]="firstnameErrors.hasError('*', ['dirty', 'touched'])">
+                <div ngxErrors="firstname" #firstnameErrors="ngxErrors" class="errors">
+                  <div ngxError="required" when="dirty">
+                    Ce champ est obligatoire
+                  </div>
+                  <div ngxError="minlength" when="dirty">
+                    Minimum 3 caractères
+                  </div>
+                </div>
+                <input type="email" placeholder="EMAIL" formControlName="email" [class.error]="emailErrors.hasError('*', ['dirty', 'touched'])">
+                <div ngxErrors="email" #emailErrors="ngxErrors" class="errors">
+                  <div ngxError="required" when="dirty">
+                    Ce champ est obligatoire
+                  </div>
+                  <div ngxError="email" when="dirty">
+                    Veuillez entrer une adresse email valide
+                  </div>
+                </div>
+                <input type="text" placeholder="TELEPHONE" formControlName="phoneNumber" [class.error]="phoneNumberErrors.hasError('*', ['dirty', 'touched'])">
+                <div ngxErrors="phoneNumber" #phoneNumberErrors="ngxErrors" class="errors">
+                  <div ngxError="required" when="dirty">
+                    Ce champ est obligatoire
+                  </div>
+                  <div [ngxError]="['maxlength', 'minlength']" [when]="['dirty', 'touched']">
+                    Le numéro de téléphone doit faire 10 caractères
+                  </div>
+                </div>
+                <input type="text" placeholder="OBJET" formControlName="subject" [class.error]="subjectErrors.hasError('*', ['dirty', 'touched'])">
+                <div ngxErrors="subject" #subjectErrors="ngxErrors" class="errors">
+                  <div ngxError="required" when="dirty">
+                    Ce champ est obligatoire
+                  </div>
+                  <div ngxError="minlength" when="dirty">
+                    Minimum 2 caractères
+                  </div>
+                </div>
+                <textarea placeholder="MESSAGE" formControlName="message" [class.error]="messageErrors.hasError('*', ['dirty', 'touched'])"></textarea>
+                <div ngxErrors="message" #messageErrors="ngxErrors" class="errors">
+                  <div ngxError="required" when="dirty">
+                    Ce champ est obligatoire
+                  </div>
+                  <div ngxError="minlength" when="dirty">
+                    Minimum 10 caractères
+                  </div>
+                </div>
+                <ng-container *ngIf="($sending|async); else notInSending">
+                  <button type="submit" disabled class="disabled btn">ENVOIE EN COURS...</button>
+                </ng-container>
+                <ng-template #notInSending>
+                  <button type="submit" [disabled]="contactForm.invalid || ($sendind|async)" class="btn"
+                    [class.disabled]="contactForm.invalid || ($sendind|async)">ENVOYER</button>
+                </ng-template>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+</div>
+<!-- End Content -->

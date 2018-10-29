@@ -1,0 +1,12 @@
+<div class="filters clearfix" data-style="scale">
+
+  <p>CATEGORIES</p>
+  <a href="#" data-filter="*" class="active">ALL</a>
+  <a *ngFor="let category of categories" href="#" [attr.data-filter]="'.filter-' + category.name">{{category.name.toUpperCase()}}</a>
+  <!-- <a href="#" data-filter=".filter-indoors">INDOORS</a>
+    <a href="#" data-filter=".filter-outdoors">OUTDOORS</a>
+    <a href="#" data-filter=".filter-models">MODELS</a>
+    <a href="#" data-filter=".filter-portraits">PORTRAITS</a>
+    <a href="#" data-filter=".filter-fashion">FASHION</a> -->
+
+</div>

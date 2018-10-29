@@ -1,0 +1,70 @@
+{
+    "categories": [
+        {
+            "name": "Beauté"
+        },
+        {
+            "name": "Mariage"
+        },
+        {
+            "name": "Mode"
+        },
+        {
+            "name": "Shooting"
+        }
+    ],
+    "pictures": [
+        {
+            "name": "leandra",
+            "categories": [
+                "Beauté"
+            ]
+        },
+        {
+            "name": "image1",
+            "categories": [
+                "Beauté"
+            ]
+        },
+        {
+            "name": "image3",
+            "categories": [ 
+                "Beauté"
+            ]
+        },
+        {
+            "name": "image4", 
+            "categories": [
+                "Beauté"
+            ]
+        },
+        {
+            "name": "makeup1", 
+            "categories": []
+        },
+        {
+            "name": "makeup2", 
+            "categories": []
+        },
+        {
+            "name": "makeup3", 
+            "categories": []
+        },
+        {
+            "name": "makeup4", 
+            "categories": []
+        },
+        {
+            "name": "makeup5", 
+            "categories": []
+        },
+        {
+            "name": "makeup6", 
+            "categories": []
+        },
+        {
+            "name": "makeup7", 
+            "categories": []
+        }
+    ]
+}

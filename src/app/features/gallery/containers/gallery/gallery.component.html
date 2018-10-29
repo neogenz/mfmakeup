@@ -1,0 +1,37 @@
+<!-- Begin Content -->
+<div class="main-container with-padding">
+
+  <!-- Begin Wrapper -->
+  <div class="wrapper">
+
+    <!-- Begin Inner Wrapper -->
+    <div class="inner-wrapper">
+
+      <!-- Begin Gallery -->
+      <div class="gallery-images grid style-icons high-space">
+
+        <div class="row">
+
+          <div class="col full">
+            <app-filters [categories]="categories"></app-filters>
+          </div>
+
+        </div>
+
+        <div class="images clearfix cols-4">
+          <div ngClass="img {{picture.categories.join(' ')}}" *ngFor="let picture of pictures">
+            <app-picture #lazyPicture [name]="picture.name"></app-picture>
+          </div>
+        </div>
+
+      </div>
+      <!-- End Gallery -->
+
+    </div>
+    <!-- End Inner Wrapper -->
+
+  </div>
+  <!-- End Wrapper -->
+
+</div>
+<!-- End Content -->

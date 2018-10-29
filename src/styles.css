@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Basicaline";
+    src: url(assets/fonts/basicaline/Basicaline-NonCommercial.otf) format('opentype'),
+  }
+html body {
+    font-family: "Basicaline", Verdana, Tahoma;
+}
+
+.loader-text{
+    display: flex;
+    align-content: center;
+}
+
+.loader-text > .circle{
+    position: relative !important;
+    left: 0 !important;
+}
