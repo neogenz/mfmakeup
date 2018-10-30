@@ -11,7 +11,7 @@ import { PictureResolverService } from './features/gallery/resolvers/picture-res
 import { ParticularComponent } from './features/benefits/containers/particular/particular.component';
 
 const routes: Routes = [
-  //{ path: '*', pathMatch: 'full', redirectTo: 'home' },
+  { path: '', pathMatch: 'full', redirectTo: '/home' },
   {
     path: '',
     component: HomeComponent,
@@ -42,7 +42,7 @@ const routes: Routes = [
         component: AboutComponent,
       },
       {
-        path: '',
+        path: 'home',
         component: IntroductionComponent,
       },
     ]
@@ -50,7 +50,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule {
