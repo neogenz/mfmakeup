@@ -218,3 +218,8 @@ h4 {
 .mt-2{
     margin-top: 1em;
 }
+
+.nb{
+    color: white;
+    font-style: italic; 
+}

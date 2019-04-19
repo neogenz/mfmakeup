@@ -76,6 +76,11 @@ h4 {
     justify-content: left;
 }
 
+.separator-container-center{
+    display: flex;
+    justify-content: center;
+}
+
 .special-prestation{
     display: flex;
     justify-content: center;
@@ -153,6 +158,16 @@ h4 {
     margin: 2em 0;
 }
 
+.separator-pink{
+    border: none;
+    height: 3px;
+    color: #F8BBD0;
+    background-color: #F8BBD0;
+    width: 20%;
+    margin: 2em 0;
+    border-radius: 1rem;
+}
+
 .dot-pink{
     background-color: #F8BBD0 !important;
 }
@@ -225,4 +240,9 @@ h4 {
 
 .mt-2{
     margin-top: 1em;
+}
+
+.nb{
+    color: white;
+    font-style: italic; 
 }
