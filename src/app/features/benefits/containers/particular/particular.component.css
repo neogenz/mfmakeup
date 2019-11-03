@@ -223,3 +223,31 @@ h4 {
     color: white;
     font-style: italic; 
 }
+
+.pl10{
+    padding-left: 0; 
+}
+
+.pr10{
+    padding-right: 0; 
+}
+
+.justify {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+    .justify {
+        text-align: justify;
+    }
+
+    .pl10{
+        padding-left: 10px; 
+    }
+
+    .pr10{
+    padding-right: 10px; 
+    }
+}

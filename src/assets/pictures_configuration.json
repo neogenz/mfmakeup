@@ -15,60 +15,52 @@
     ],
     "pictures": [
         {
-            "name": "makeup13", 
-            "categories": []
-        },
-        {
-            "name": "leandra",
+            "name": "makeup13",
             "categories": [
                 "Beauté"
             ]
         },
         {
-            "name": "makeup2", 
-            "categories": []
-        },
-        {
-            "name": "makeup16", 
-            "categories": []
-        },
-        {
-            "name": "image3",
-            "categories": [ 
+            "name": "makeup2",
+            "categories": [
                 "Beauté"
             ]
         },
         {
-            "name": "makeup15", 
-            "categories": []
+            "name": "image3",
+            "categories": [
+                "Beauté"
+            ]
         },
         {
-            "name": "makeup5", 
-            "categories": []
+            "name": "makeup5",
+            "categories": [
+                "Shooting"
+            ]
         },
         {
-            "name": "makeup18", 
-            "categories": []
+            "name": "makeup18",
+            "categories": [
+                "Shooting"
+            ]
         },
         {
-            "name": "makeup1", 
-            "categories": []
+            "name": "makeup10",
+            "categories": [
+                "Beauté"
+            ]
         },
         {
-            "name": "makeup3", 
-            "categories": []
+            "name": "makeup4",
+            "categories": [
+                "Shooting"
+            ]
         },
         {
-            "name": "makeup10", 
-            "categories": []
-        },
-        {
-            "name": "makeup4", 
-            "categories": []
-        },
-        {
-            "name": "makeup20", 
-            "categories": []
+            "name": "makeup20",
+            "categories": [
+                "Mariage"
+            ]
         },
         {
             "name": "image1",
@@ -77,37 +69,63 @@
             ]
         },
         {
-            "name": "makeup6", 
-            "categories": []
+            "name": "makeup6",
+            "categories": [
+                "Mode"
+            ]
         },
         {
-            "name": "makeup17", 
-            "categories": []
+            "name": "makeup7",
+            "categories": [
+                "Shooting"
+            ]
         },
         {
-            "name": "makeup7", 
-            "categories": []
-        },
-        {
-            "name": "makeup8", 
-            "categories": []
-        },
-        {
-            "name": "makeup14", 
-            "categories": []
-        },
-        {
-            "name": "makeup9", 
-            "categories": []
-        },
-        {
-            "name": "makeup19", 
-            "categories": []
-        },
-        {
-            "name": "image4", 
+            "name": "makeup8",
             "categories": [
                 "Beauté"
+            ]
+        },
+        {
+            "name": "makeup14",
+            "categories": [
+                "Mode"
+            ]
+        },
+        {
+            "name": "image4",
+            "categories": [
+                "Beauté"
+            ]
+        },
+        {
+            "name": "image5",
+            "categories": [
+                "Mariage"
+            ]
+        },
+        {
+            "name": "makeup21",
+            "categories": [
+                "Mariage"
+            ]
+        },
+        {
+            "name": "makeup22",
+            "categories": [
+                "Mariage"
+            ]
+        },
+        {
+            "name": "makeup23",
+            "categories": [
+                "Mariage"
+            ]
+        },
+        {
+            "name": "makeup24",
+            "categories": [
+                "Shooting"
             ]
         }
     ]
